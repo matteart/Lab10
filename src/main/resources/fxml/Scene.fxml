@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.bar.FXMLController">
+<BorderPane style="-fx-background-color: #222f3e;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.bar.FXMLController">
    <top>
       <Label text="Simulazione Bar (Lab10 TdP-2020)" BorderPane.alignment="CENTER">
          <font>
@@ -30,7 +30,7 @@
                   <Insets top="12.0" />
                </VBox.margin>
             </Label>
-            <TextArea fx:id="txtResult" />
+            <TextArea fx:id="txtResult" style="-fx-background-color: #576574;" />
          </children>
       </VBox>
    </center>
